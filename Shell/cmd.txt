@@ -1,0 +1,2 @@
+目录下所有文件字符串替换：
+sed -i "s/oldString/newString/g" `grep oldString -rl /path`
